@@ -1,5 +1,5 @@
 body {
-    background-color: purple;
+    background-color: #ff47bf;
 }
 
 h1 {
@@ -9,6 +9,7 @@ h1 {
 
 header {
     background-color: rgb(0,255,0);
+    padding: 5px;
 }
 
 nav {
@@ -19,6 +20,14 @@ li {
     display: inline;
     border: 1px double #000;
     padding: 10px 30px;
+    margin: 10px 30px;
+    background-color: turquoise;
+}
+
+a {
+    font-style: bold;
+    font-size: large;
+    color: navy;
 }
 
 article {
@@ -28,6 +37,7 @@ article {
 figure {
     border: 5px double maroon;
     display: inline-block;
+    color: #242223;
 }
 
 img {
@@ -39,5 +49,10 @@ p {
 }
 
 footer {
-    background-color: #ff47bf;
+    background-color: purple;
+    text-align: center;
+}
+
+footer>p {
+    color: whitesmoke;
 }
