@@ -1,0 +1,43 @@
+body {
+    background-color: purple;
+}
+
+h1 {
+    text-align: center;
+    color: darkslategray;
+}
+
+header {
+    background-color: rgb(0,255,0);
+}
+
+nav {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    border: 1px double #000;
+    padding: 10px 30px;
+}
+
+article {
+    text-align: center;
+}
+
+figure {
+    border: 5px double maroon;
+    display: inline-block;
+}
+
+img {
+    padding: 30px;
+}
+
+p {
+    color: #242223;
+}
+
+footer {
+    background-color: #ff47bf;
+}
