@@ -32,6 +32,7 @@ a {
 
 article {
     text-align: center;
+    display: inline;
 }
 
 figure {
@@ -40,7 +41,7 @@ figure {
     color: #242223;
 }
 
-img {
+fig>img {
     padding: 30px;
 }
 
@@ -55,4 +56,12 @@ footer {
 
 footer>p {
     color: whitesmoke;
+}
+
+p> img {
+    display: inline;
+}
+
+article>p {
+    display: inline;    
 }

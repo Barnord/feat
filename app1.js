@@ -31,4 +31,27 @@ document.write('<h3>' + greeting + '</h3>');
 
 
 function askCookies(){
-    cookies = confirm('Would you be willing to sign a petition to ban the race Variant Human from Fifth Edition Dungeons and Dragons?')}
+    cookies = confirm('Would you be willing to sign a petition to ban the race Variant Human from Fifth Edition Dungeons and Dragons?')
+}
+// This has nothing to do with cookies anymore.
+
+function pictureThis() {
+    document.write('<img src=\'pics/Pic' + Math.floor(Math.random() * 5 ) + '.jfif\'>')
+}
+
+function inRange(x) {
+    return ((x-1)*(x-10) <= 0)
+}
+
+function manyPictures(){
+    let picNumber;
+    let i = 1;
+    while (inRange(picNumber) == false)  {
+        picNumber = prompt('How many not humans would you like to see?');
+    }
+    if (inRange(picNumber) == true)
+        while (picNumber > 0) {
+            document.write('<p>' + i + '.<img src=\'pics/Pic' + Math.floor(Math.random() * 5 ) + '.jfif\'></p>');
+            picNumber--;
+            i++
+    }}
